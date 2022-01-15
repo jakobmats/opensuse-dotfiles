@@ -1,0 +1,6 @@
+[Desktop Entry]
+Exec=xautolock -locker i3lock
+Name=i3lock
+OnlyShowIn=LXQt;
+Type=Application
+Version=1.0

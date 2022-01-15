@@ -1,0 +1,10 @@
+[Desktop Entry]
+Categories=Network;Monitor;
+Comment=LXQt panel applet to handle network connections
+Exec=nm-tray
+GenericName=Network Management
+Icon=nm-device-wireless
+Name=LXQt Network Applet
+OnlyShowIn=LXQt;
+Type=Application
+X-LXQt-Need-Tray=true
