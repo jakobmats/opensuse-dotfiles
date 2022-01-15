@@ -5,4 +5,5 @@ sudo zypper install\
 	picom\
 	okular\
 	alacritty\
-	i3-gaps
+	i3-gaps\
+	breeze
