@@ -26,6 +26,7 @@ case $allowed do
 
 		printf "${cb}  Copying wallpapers\n"
 		sudo cp usr/share/wallpapers/northern-lights.jpg /usr/share/wallpapers
+		sudo cp etc/lightdm/lightdm-gtk-greeter.conf /etc/lightdm/lightdm-gtk-greeter.conf
 		printf "${cg}  Wallpapers copied"
 
 		printf "${cg}Dotfiles copied\n"

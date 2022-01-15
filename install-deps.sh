@@ -7,4 +7,6 @@ sudo zypper install\
 	alacritty\
 	i3-gaps\
 	breeze\
-	feh
+	feh\
+	noto-coloremoji-fonts\
+	lightdm-gtk-greeter-settings

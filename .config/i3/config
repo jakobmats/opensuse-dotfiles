@@ -199,4 +199,4 @@ client.unfocused #4e8a24 #4e8a24 #4e8a24 #4e8a24 #4e8a24
 client.urgent #ff6425 #ff6425 #ff6425 #ff6425 #ff6425
 
 exec --no-startup-id picom --config ~/.config/.picom.conf
-exec --no-startup-id feh --bg-scale --no-fehbg /usr/share/wallpapers/northernlights.jpg
+exec --no-startup-id feh --bg-scale --no-fehbg ~/usr/share/wallpapers/northernlights.jpg
