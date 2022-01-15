@@ -6,4 +6,5 @@ sudo zypper install\
 	okular\
 	alacritty\
 	i3-gaps\
-	breeze
+	breeze\
+	feh
