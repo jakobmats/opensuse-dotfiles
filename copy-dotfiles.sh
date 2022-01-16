@@ -7,7 +7,7 @@ cb="\033[1;34m"
 printf "${cg}[*] Proceeding will remove all previously created dotfiles.\n"
 printf "${cr}"
 read -p "[*] DO YOU WANT TO PROCEED [Y/N] " allowed
-dir="$HOME/.config $HOME/.icons"
+dir="$HOME/.config $HOME/.icons/default"
 
 case $allowed do
 	Y*|y*)
@@ -19,6 +19,7 @@ case $allowed do
 
 		printf "${cb}  Copying configs\n"
 		cp -r config/* ~/.config
+		cp -r .icons/default/* .icons/default
 		cp .gtkrc-2.0 ~/
 		cp .picom.conf ~/
 		cp .Xdefaults ~/
