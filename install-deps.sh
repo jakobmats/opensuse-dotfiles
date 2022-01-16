@@ -2,6 +2,7 @@
 
 sudo zypper install\
 	./opt/micro-editor-2.0.10-1.14.x86_64.rpm\
+	git\
 	picom\
 	okular\
 	alacritty\
