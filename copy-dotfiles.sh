@@ -22,12 +22,12 @@ case $allowed do
 		cp .gtkrc-2.0 ~/
 		cp .picom.conf ~/
 		cp .Xdefaults ~/
+		sudo cp etc/lightdm/lightdm-gtk-greeter.conf /etc/lightdm/lightdm-gtk-greeter.conf
 		printf "${cg}  Configs copied\n"
 
 		printf "${cb}  Copying wallpapers\n"
 		sudo cp usr/share/wallpapers/northern-lights.jpg /usr/share/wallpapers
 		sudo cp usr/share/wallpapers/leaves.jpg /usr/share/wallpapers
-		sudo cp etc/lightdm/lightdm-gtk-greeter.conf /etc/lightdm/lightdm-gtk-greeter.conf
 		printf "${cg}  Wallpapers copied"
 
 		printf "${cg}Dotfiles copied\n"
