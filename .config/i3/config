@@ -28,11 +28,12 @@ exec --no-startup-id dex --autostart --environment i3
 
 # xss-lock grabs a logind suspend inhibit lock and will use i3lock to lock the
 # screen before suspend. Use loginctl lock-session to lock your screen.
-exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
+#exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
+
 
 # NetworkManager is the most popular way to manage wireless networks on Linux,
 # and nm-applet is a desktop environment-independent system tray GUI for it.
-exec --no-startup-id nm-applet
+#exec --no-startup-id nm-applet
 
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3status
@@ -193,10 +194,11 @@ for_window [class=".*"] border pixel 3
 gaps inner 10
 gaps outer 30
 
-client.focused #73ba25 #73ba25 #73ba25 #73ba25 #73ba25
-client.focused_inactive #4e8a24 #4e8a24 #4e8a24 #4e8a24 #4e8a24
-client.unfocused #4e8a24 #4e8a24 #4e8a24 #4e8a24 #4e8a24
-client.urgent #ff6425 #ff6425 #ff6425 #ff6425 #ff6425
+# class                 border   backgr. text    indicator child_border
+client.focused          #73ba25 #73ba25  #73ba25 #c8ffa5   #73ba25
+client.focused_inactive #4e8a24 #4e8a24  #4e8a24 #c8ffa5   #4e8a24
+client.unfocused        #4e8a24 #4e8a24  #4e8a24 #c8ffa5   #4e8a24
+client.urgent           #ff6425 #ff6425  #ff6425 #c8ffa5   #ff6425
 
 exec --no-startup-id picom --config ~/.config/.picom.conf
-exec --no-startup-id feh --bg-scale --no-fehbg ~/usr/share/wallpapers/northernlights.jpg
+exec --no-startup-id feh --bg-scale --no-fehbg ~/usr/share/wallpapers/leaves.jpg

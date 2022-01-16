@@ -9,4 +9,5 @@ sudo zypper install\
 	breeze\
 	feh\
 	noto-coloremoji-fonts\
-	lightdm-gtk-greeter-settings
+	lightdm-gtk-greeter-settings\
+	light-locker
