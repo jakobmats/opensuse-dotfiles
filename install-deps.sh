@@ -11,4 +11,6 @@ sudo zypper install\
 	feh\
 	noto-coloremoji-fonts\
 	lightdm-gtk-greeter-settings\
-	light-locker
+	light-locker\
+	qt5ct\
+	nm-tray

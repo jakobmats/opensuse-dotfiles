@@ -200,5 +200,5 @@ client.focused_inactive #4e8a24 #4e8a24  #4e8a24 #c8ffa5   #4e8a24
 client.unfocused        #4e8a24 #4e8a24  #4e8a24 #c8ffa5   #4e8a24
 client.urgent           #ff6425 #ff6425  #ff6425 #c8ffa5   #ff6425
 
-exec --no-startup-id picom --config ~/.config/.picom.conf
+exec_always --no-startup-id picom --config ~/.picom.conf --experimental-backends
 exec --no-startup-id feh --bg-scale --no-fehbg ~/usr/share/wallpapers/leaves.jpg
